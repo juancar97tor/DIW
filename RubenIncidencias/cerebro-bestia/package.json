@@ -1,0 +1,21 @@
+{
+  "name": "cerebro-bestia",
+  "version": "1.0.0",
+  "description": "El cerebro de nuestra aplicacion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "node",
+    "cerebro",
+    "bestia"
+  ],
+  "author": "Ruben Montejano Ortiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8"
+  }
+}
