@@ -1,0 +1,51 @@
+nav{
+
+    padding-left: 20%;
+    padding-top: 20%;
+}
+
+
+li{
+
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+    transition: all 1.5s ease-in-out;
+   
+}
+
+li:hover{
+
+    
+    transform: scale(1.5);
+    transition-duration: 2s;
+    color: red;
+
+    
+}
+
+img:hover{
+    
+   
+    box-shadow: red;
+    border: 3px solid;
+
+}
+
+li > p{
+
+    text-align: center;
+    opacity: 0;
+}
+
+li:hover  p{
+
+    transition-duration: 2s;
+    opacity: 1;
+
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 68046befde9e515cd18f4749f8c20e2b835a6701

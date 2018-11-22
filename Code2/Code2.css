@@ -1,0 +1,43 @@
+
+#mensaje{
+
+    padding-left: 10%;
+    width: 70%;
+}
+
+
+#primera{
+    
+    
+    font-weight: lighter;
+    padding-bottom: 10%;
+    
+}
+
+#segunda{
+     padding-left: 5%;
+    font-weight: lighter;
+    padding-bottom: 10%;
+    
+    
+}
+
+h2{
+    color: gray;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#araña{
+
+    padding-left: 30%;
+    width: 70%;
+}
+
+#gris{
+
+    background-color: rgb(245,245,245);
+}

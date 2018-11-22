@@ -1,0 +1,35 @@
+h2{
+    color: rgb(0, 173, 240);
+    font-weight: bold;
+    
+}
+
+#cara{
+    padding-right: 1%;
+    float: left;
+}
+
+#etiqueta{
+    padding-left: 5%;
+
+    font-size: 80%;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 173, 240);
+}
+
+#parrafo{
+    padding-left: 5%;
+	line-height: 30px;
+}
+
+#continue{
+    padding-left: 45%;
+}
+
+body{
+    font-family: sans-serif;
+}

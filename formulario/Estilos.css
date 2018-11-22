@@ -1,0 +1,45 @@
+.izquierda{
+
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+   
+}
+
+.principal{
+
+    padding: 20px;
+
+}
+
+input, textarea{
+
+    width: 50%;
+    padding: 12px;
+    resize: vertical;
+    transition: all 1.5s ease-in-out;
+}
+
+input:invalid:hover,textarea:invalid:hover{
+    
+    border: 1px solid red;
+
+}
+
+input:valid:hover,textarea:valid:hover{
+
+    border: 1px solid aquamarine;
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+@media screen and (max-width: 600px) {
+    .derecha {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.enviar{
+    margin-left: 25%;
+}

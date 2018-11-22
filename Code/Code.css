@@ -1,0 +1,45 @@
+table{
+    background-color: rgb(245,245,245);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#code{
+	
+	color: blue;
+}
+#Happy{
+	
+	color: blue;
+}
+
+.twiter{
+	
+	width: 10%;
+}
+#fuller{
+	
+	vertical-align: 150%;
+	padding-left: 10%;
+	width: 90%;
+}
+
+#Melou{
+	
+	vertical-align: 150%;
+	padding-left: 10%;
+	width: 90%;
+}
+
+#Lukas{
+	
+	vertical-align: 150%;
+	padding-left: 10%;
+	width: 90%;
+}
+
+.tw{
+	
+	color: gray;
+	font-size: 12px;
+}

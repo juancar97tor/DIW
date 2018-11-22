@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    
+}
+
+
+#titulo{
+    color: #004680;
+    font-size: 18px;
+	padding: 20px 20px 0 20px;
+}
+
+hr {
+	margin-left: 0%;
+    margin-right: 48%;
+	
+}
+
+p{
+    line-height: 18px;
+    padding: 20px 20px 0 20px;
+	color: grey;
+}
+
+
+
+#Aceptar{
+	
+	padding-top: 2%;
+}
+
+#configuracion{
+
+	padding-left: 28%;
+    color: blue;
+	text-decoration: none;
+    color: blue;
+	
+}
+
+#pie{
+	
+	background-color: lightgrey;
+    margin-right: 47%;
+    height: 50px;
+	
+}
+
+
+#politica{
+	vertical-align: top;
+    color: blue;
+}
+
+#desarrollador{
+	
+	margin-left: 60%;
+    vertical-align: top;
+	
+}
