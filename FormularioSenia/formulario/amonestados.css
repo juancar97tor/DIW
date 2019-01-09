@@ -1,0 +1,29 @@
+.alumno{
+    border: solid 1px purple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+@media (min-width: 800px) {
+    .container{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

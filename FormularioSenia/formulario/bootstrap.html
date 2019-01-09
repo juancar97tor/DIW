@@ -45,7 +45,7 @@
 
             <div class="form-group-row" >
              
-                <input name="professor" type="text" class="m-2" placeholder="Docent">
+                <input name="profesor" type="text" class="m-2" placeholder="Docent">
                 
                         Horari d'atenció
                     
@@ -54,18 +54,16 @@
 
             <div class="form-group-row">
                 <div class="row">
-                <div class="m-2">
-                    Data de l'incident
-                </div>
-                <input name="data" type="date" class="m-2">
-                <div class="m-2">
-                    Hora
-                </div>
-                 <input name="hora" type="time" class="m-3">
-                 <div class="m-2">
-                    Lloc
-                 </div>
-                 <input name="lloc" type="text" class="m-3">
+                    <div class="m-2">
+                        Data de l'incident
+                    </div>
+                    <input name="data" type="date" class="m-2">
+                    <div class="m-2">
+                        Hora
+                    </div>
+                    <input name="hora" type="time" class="m-3">
+                   
+                    <input name="lloc" type="text" class="m-3" placeholder="Lloc">
 
                 </div>
 
@@ -80,54 +78,54 @@
 
 
                 
-                Activar faltas graves<input name="camio" id="check" type="checkbox" value="" onchange="javascript:showContent()"><br/>
+                Activar faltas graves<input name="cambio" id="check" type="checkbox" value="" onchange="javascript:showContent()"><br/>
                
 
-                <p class="grave" style="display: none">Tipificacio(1) de l'incident segons l'article 42: 
-                <select name="incidenciaLeve" class="form-control">
-
-                <option value ="tipgrave1">Els actes greus d'indisciplina i les injúries i ofenses contra membres de la comunitat educativa que sobrepassen la incorrecció o la desconsideració previstes en el article 35.</option>
-                <option value ="tipgrave2">L'agressió fisica o moral, les amenaces i coaccions i la discriminació greu a qualsevol membre de la comunitat educativa, així com la falta de respecte greu a la integritat i dignitat personal.</option>
-                <option value ="tipgrave3">Les vexacions i humiliacions a qualsevol membre de la comunitat escolar, particularment si tenen un comportament sexista o xenòfon, així com les que es realitzen contra els membres més vulnerables per les seues característiques personals, socials o educatives.</option>
-                <option value ="tipgrave4">L'assetjament escolar.</option>
-                <option value ="tipgrave5">La suplantació de personalitat en actes de vida docent.</option>
-                <option value ="tipgrave6">La falsificació, el deteriorament o la sustracció de documentació acadèmica.</option>
-                <option value ="tipgrave7">Els danys greus causats en els locals, materials o documents del centre o en els bens dels membres de la comunitat educativa.</option>
-                <option value ="tipgrave8">Els actes injustificats que pertorben greument el normal desenvolupament de les activitats del centre.</option>
-                <option value ="tipgrave9">Les actuacions que puguen perjudicar greument la salut i la integritat personal dels membres de la comunitat educativa.</option>
-                <option value ="tipgrave10">La introducció en el centre d'objectes perillosos o substàncies perjudicials per a la salut i la integritat personal dels membres de la comunitat educativa.</option>
-                <option value ="tipgrave11">Les conductes tipificades com a contràries a les normes de convivència del centre educatiu si concorren circumstancies de col-lectivitat o publicitat intencionada per qualsevol mitjà.</option>
-                <option value ="tipgrave12">La incitació o l'estimul a cometre una falta que afecte greument la convivència en el centre.</option>
-                <option value ="tipgrave13">La negativa reiterada al compliment de les mesures educatives correctores adoptades davant de conductes contràries a les normes de convivència.</option>
-                <option value ="tipgrave14">La negativa reiterada al compliment de les mesures disciplinaries adoptades davant de faltes que afecten greument a la convivència en el centre.</option>
-                <option value ="tipgrave15">L'accés indegut o sense autorització a fitxers i servidors del centre.</option>
-                <option value ="tipgrave16">Actes atemptatoris respecte al projecte educatiu, així com al caràcter propi del centre.</option>
-
+                <p class="grave" style="display: none">
+                    Tipificacio(1) de l'incident segons l'article 42 de el demonio asesino: 
+                    <select name="incidentegrave" class="form-control">
+                <option value="">...</option>
+                <option value="tip_42_a">Els actes greus d'indisciplina i les injúries i ofenses contra membres de la comunitat educativa que sobrepassen la incorrecció o la desconsideració previstes en el article 35.</option>
+                <option value="tip_42_b">L'agressió fisica o moral, les amenaces i coaccions i la discriminació greu a qualsevol membre de la comunitat educativa, així com la falta de respecte greu a la integritat i dignitat personal.</option>
+                <option value="tip_42_c">Les vexacions i humiliacions a qualsevol membre de la comunitat escolar, particularment si tenen un comportament sexista o xenòfon, així com les que es realitzen contra els membres més vulnerables per les seues característiques personals, socials o educatives.</option>
+                <option value="tip_42_d">L'assetjament escolar.</option>
+                <option value="tip_42_e">La suplantació de personalitat en actes de vida docent.</option>
+                <option value="tip_42_f">La falsificació, el deteriorament o la sustracció de documentació acadèmica.</option>
+                <option value="tip_42_g">Els danys greus causats en els locals, materials o documents del centre o en els bens dels membres de la comunitat educativa.</option>
+                <option value="tip_42_h">Els actes injustificats que pertorben greument el normal desenvolupament de les activitats del centre.</option>
+                <option value="tip_42_i">Les actuacions que puguen perjudicar greument la salut i la integritat personal dels membres de la comunitat educativa.</option>
+                <option value="tip_42_j">La introducció en el centre d'objectes perillosos o substàncies perjudicials per a la salut i la integritat personal dels membres de la comunitat educativa.</option>
+                <option value="tip_42_k">Les conductes tipificades com a contràries a les normes de convivència del centre educatiu si concorren circumstancies de col-lectivitat o publicitat intencionada per qualsevol mitjà.</option>
+                <option value="tip_42_l">La incitació o l'estimul a cometre una falta que afecte greument la convivència en el centre.</option>
+                <option value="tip_42_m">La negativa reiterada al compliment de les mesures educatives correctores adoptades davant de conductes contràries a les normes de convivència.</option>
+                <option value="tip_42_n">La negativa reiterada al compliment de les mesures disciplinaries adoptades davant de faltes que afecten greument a la convivència en el centre.</option>
+                <option value="tip_42_o">L'accés indegut o sense autorització a fitxers i servidors del centre.</option>
+                <option value="tip_42_p">Actes atemptatoris respecte al projecte educatiu, així com al caràcter propi del centre.</option>
                 </select>
 
             </p>
 
                
 
-            <p class="leve">En aplicacio de l'article 37 del decret 39/08 sobre drets y deures, es comunica al para/mare de l'alumne
+            <p name="leve" class="leve">En aplicacio de l'article 37 del decret 39/08 sobre drets y deures, es comunica al para/mare de l'alumne
                 <br /> la imposicio de la següent mesura correctora:</p>
 
             <div class="form-check leve">
-                <input class="form-check-input" type="checkbox" value="" id="tipoAmonA">
+                <input class="form-check-input" type="checkbox" value="marcado" id="tipoAmonA" name="tipoAmonA">
                 <label class="form-check-label" for="tipoAmonA">Amonestacio verbal</label><br />
 
-                <input class="form-check-input" type="checkbox" value="" id="tipoAmonB">
+                <input class="form-check-input" type="checkbox" value="" id="tipoAmonB" name="tipoAmonB">
                 <label class="form-check-label" for="tipoAmonB">Compareixença davant el cap d'estudis/director</label><br />
 
-                <input class="form-check-input" type="checkbox" value="" id="tipoAmonC">
+                <input class="form-check-input" type="checkbox" value="" id="tipoAmonC" name="tipoAmonC">
                 <label class="form-check-label" for="tipoAmonC">Amonestacio per escrit</label><br />
 
-                <input class="form-check-input" type="checkbox" value="" id="tipoAmonD">
+                <input class="form-check-input" type="checkbox" value="" id="tipoAmonD" name="tipoAmonD">
                 <label class="form-check-label" for="tipoAmonD">Retirada d'aparells electronics(1)</label>
                 <div class="row">
                     <div class="col-16">
                         <div class="col">
-                        <input class="form-check-input" type="checkbox" value="" id="tipoAmonE">Privacio del temps de recreacio els dies
+                        <input class="form-check-input" type="checkbox" value="" id="tipoAmonE" name="tipoAmonE">Privacio del temps de recreacio els dies
                     </div>
                     
                     <div class="col">
@@ -139,32 +137,35 @@
                 <div class="row">
                     <div class="col-16">
                         <div class="col">
-                        <input class="form-check-input" type="checkbox" value="" id="tipoAmonG" name="tasques">Realitzacio de les següents tasques educadores:
-                    </div>
+                        <input class="form-check-input" type="checkbox" value="" id="tipoAmonG" name="tasques" name="tipoAmonG">Realitzacio de les següents tasques educadores:
+                        </div>
                     
-                    <div class="col">
-                        <input name="tasques" type="text" class="form-control m-1" >
-                    </div>
+                        <div class="col">
+                            <input name="tasque" type="text" class="form-control m-1" >
+                        </div>
 
-                    <div class="col">
-                        <input name="dies1" type="text" class="form-control m-1" placeholder="el dies">
-                    </div>
+                        <div class="col">
+                            <input name="dies1" type="text" class="form-control m-1" placeholder="el dies">
+                        </div>
                     
-                    <div class="col">
-                        <input name="horari" type="text" class="form-control m-1" placeholder="i amb l'horari">
+                        <div class="col">
+                            <input name="horari" type="text" class="form-control m-1" placeholder="i amb l'horari">
+                        </div>
                     </div>
                 </div>
-            </div>
 
                 <div class="row">
                     <div class="col-16">
                         <div class="col">
-                         <input class="form-check-input" type="checkbox" value="" id="tipoAmonH" name="extracolars">Suspensio del dret a participar en activitats
+                         <input class="form-check-input" type="checkbox" value="" id="tipoAmonH" name="tipoAmonH">Suspensio del dret a participar en activitats
                     extraescolars i complementaries <label class="col-form-label-sm">(2)</label>
                             </div>
                     
                         <div class="col">
-                            <input name="suspensio" type="text" class="m-1" placeholder="des de" ><input type="text" class="form-control m-1" placeholder="Fins a">
+                            <input name="suspensio" type="text" class="m-1" placeholder="des de" >
+                        </div>
+                        <div class="col">
+                            <input name ="finsa" type="text" class="m-1" placeholder="Fins a">
                         </div>
                     </div>
               </div>
@@ -172,7 +173,7 @@
             <div class="row">
                     <div class="col-16">
                         <div class="col">
-                                <input class="form-check-input" type="checkbox" value="" id="tipoAmonI">Suspensio del dret de l'assistencia a les classes de
+                                <input class="form-check-input" type="checkbox" value="" id="tipoAmonI" name="tipoAmonI">Suspensio del dret de l'assistencia a les classes de
                         </div>
                         <div class="col">
                             <input name="assistencia" type="text" class="form-control m-1 " placeholder="Assignatura/s">
@@ -190,38 +191,37 @@
 
             
 
-            <p class="leve">Tipificacio(3) de l'incident segons l'article 35:
-                
-                <select name="incidente"  class="form-control">
+            <p class="leve">Tipificacio(3) de l'incident segons l'article 35 del infierno: 
+                <select name="incidente" class="form-control">
 
-                <option value ="tipleve1">Les faltes de puntualitat injustificades.</option>
-                <option value ="tipleve2">Les faltes d'assistència injustificades.</option>
-                <option value ="tipleve3">Els actes que alteren el normal desenvolupament de les activitats del centre educatiu, especialment
+                <option value="tip_35_a">Les faltes de puntualitat injustificades.</option>
+                <option value="tip_35_b">Les faltes d'assistència injustificades.</option>
+                <option value="tip_35_c">Els actes que alteren el normal desenvolupament de les activitats del centre educatiu, especialment
                     els que alteren el normal desenvolupament de les classes.</option>
-                <option value ="tipleve4">Els actes d'indisciplina</option>
-                <option value ="tipleve5">Els actes d'incorreció o desconsideració, les injúries i les ofenses contra els membres de la
+                <option value="tip_35_d">Els actes d'indisciplina</option>
+                <option value="tip_35_e">Els actes d'incorreció o desconsideració, les injúries i les ofenses contra els membres de la
                     comunitat educativa.</option>
-                <option value ="tipleve6">El furt o deteriorament intencionat d'inmobles, materials, documentació o recursos del centre.</option>
-                <option value ="tipleve7">El furt o deteriorament intencionat dels béns o materials dels membres de la comunitat educativa.</option>
-                <option value ="">Les accions que puguen ser perjudicials per a la integritat i la salut dels membres de la comunitat
+                <option value="tip_35_f">El furt o deteriorament intencionat d'inmobles, materials, documentació o recursos del centre.</option>
+                <option value="tip_35_g">El furt o deteriorament intencionat dels béns o materials dels membres de la comunitat educativa.</option>
+                <option value="tip_35_h">Les accions que puguen ser perjudicials per a la integritat i la salut dels membres de la comunitat
                     educativa.</option>
-                <option value ="tipleve8">La negativa sistematica a portar el material necessari per al desenvolupament del procés
+                <option value="tip_35_i">La negativa sistematica a portar el material necessari per al desenvolupament del procés
                     d'enseyament-aprenentatge.</option>
-                <option value ="tipleve9">La negativa a traslladar la informació facilitada als pares, mares, tutors, o utores per part del
+                <option value="tip_35_j">La negativa a traslladar la informació facilitada als pares, mares, tutors, o utores per part del
                     centre i viceversa.</option>
-                <option value ="tipleve10">L'alteració o manipulació de la documentació facilitada als pares, mares, tutors, o utores per part
+                <option value="tip_35_k">L'alteració o manipulació de la documentació facilitada als pares, mares, tutors, o utores per part
                     del centre.</option>
-                <option value ="tipleve11">La suplantació de la personalitat del membres de la comunitat escolar.</option>
-                <option value ="tipleve12">La utilització inadequada de les tecnologies de la informació i comunicació durant les activitats
+                <option value="tip_35_l">La suplantació de la personalitat del membres de la comunitat escolar.</option>
+                <option value="tip_35_m">La utilització inadequada de les tecnologies de la informació i comunicació durant les activitats
                     que es realitzen en el centre educatiu.</option>
-                <option value ="tipleve13">L'us de telèfons mòbils, aparells de so i altres aparells electrònics aliens als procés
+                <option value="tip_35_n">L'us de telèfons mòbils, aparells de so i altres aparells electrònics aliens als procés
                     d'ensenyament-aprenentatge. Durant les activitas que es realitzen en el centre educatiu.</option>
-                <option value ="tipleve14">Els actes que dificulten o impedisquen el dret i deure de l'estudi dels seus companys y companyes.</option>
-                <option value ="tipleve15">La incitació o estímul a cometre una falta contrària a les normes de convivència.</option>
-                <option value ="tipleve16">La negativa al compliment de les mesures correctores adoptades davant de conductes contràries a les
+                <option value="tip_35_o">Els actes que dificulten o impedisquen el dret i deure de l'estudi dels seus companys y companyes.</option>
+                <option value="tip_35_p">La incitació o estímul a cometre una falta contrària a les normes de convivència.</option>
+                <option value="tip_35_q">La negativa al compliment de les mesures correctores adoptades davant de conductes contràries a les
                     normes de convivència.</option>
-                <option value ="tipleve17">L'us inadequat de les infraestructures i béns o equips materials del centre.</option>
-                <option value ="tipleve18">La desobediéncia en el compliment de les normes de carácter propi del centre i que estiguen
+                <option value="tip_35_r" value ="">L'us inadequat de les infraestructures i béns o equips materials del centre.</option>
+                <option value="tip_35_s" value ="">La desobediéncia en el compliment de les normes de carácter propi del centre i que estiguen
                     incloses en el seu projecte educatiu.</option>
 
                 </select>
@@ -233,22 +233,22 @@
                 
             </p>
             <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="correu">
-                    <label class="form-check-label" for="tipoAmoncorreu">Per correu</label>
+                    <input class="form-check-input" type="checkbox" value="" id="correu" >
+                    <label class="form-check-label" for="tipoAmoncorreu" name="correu">Per correu</label>
                    
             </div>
             <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="alum">
-                    <label class="form-check-label" for="tipoAmonalum">Per mig de l'alumne</label>
+                    <input class="form-check-input" type="checkbox" value="" id="alum" >
+                    <label class="form-check-label" for="tipoAmonalum" name="alum">Per mig de l'alumne</label>
                    
             </div>
             <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="tutor">
-                    <label class="form-check-label" for="tipoAmontutor">Amb compareixença del pare/mare/tutor legal</label>
+                    <input class="form-check-input" type="checkbox" value="" id="tutor" >
+                    <label class="form-check-label" for="tipoAmontutor" name="tutor">Amb compareixença del pare/mare/tutor legal</label>
                    
             </div>
             
-            <p class="grave" style="display:none">Les conductes greument perjudicials per a la convivència en el centre docent només podran ser objecte de mesura disciplinària amb la instrucció prèvia del corresponent expedient disciplinari &#40;art.45.1&#41;</p><br/>
+            <p class="grave" style="display:none" name="conductes">Les conductes greument perjudicials per a la convivència en el centre docent només podran ser objecte de mesura disciplinària amb la instrucció prèvia del corresponent expedient disciplinari &#40;art.45.1&#41;</p><br/>
             <div class="form-group row">
         
             <p>Paiporta,<input name="paiporta" type="text">de<input name="de" type="text">de 201<input name="anio" type="text"></p>
