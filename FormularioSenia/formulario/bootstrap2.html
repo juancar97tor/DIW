@@ -8,14 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="bootstrap.js"></script>
-    <link rel="stylesheet" href="cerebro.css">
+    <script src="bootstrap2.js"></script>
+    <link rel="stylesheet" href="boot.css">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
 
         
             <h3 class="text-center grave" style="display: none" >COMUNICACIÓ DE CONDUCTES GREUMENT PERJUDICIALS
-                PER A LA CONVIVÈNCIA EN EL CENTRE
+                PER A LA CONVIVÈNCIA EN EL CENTRe
             </h3>
             
         
@@ -43,7 +45,7 @@
             <p>Data de l'incident <input name="data" type="date" class="m-2">Hora <input name="hora" type="time" class="m-2">
                 <input name="lloc" type="text" class="m-2" placeholder="Lloc"></p>
 
-                <p>Descripcio de l'incident:</p><textarea name="descripcion" cols="100" rows="10"></textarea><br/>
+                <p>Descripcio de l'incident:</p><textarea cols="100" rows="10"></textarea><br/>
 
                 Activar faltas graves<input name="cambio" id="check" type="checkbox" value="" onchange="javascript:showContent()"><br/>
                
@@ -161,6 +163,7 @@
             <p class="leve">Tipificacio(3) de l'incident segons l'article 35 del infierno: 
                 <select name="incidente" class="form-control">
 
+                <option value="nada">Rellena este campo</option>
                 <option value="tip_35_a">Les faltes de puntualitat injustificades.</option>
                 <option value="tip_35_b">Les faltes d'assistència injustificades.</option>
                 <option value="tip_35_c">Els actes que alteren el normal desenvolupament de les activitats del centre educatiu, especialment

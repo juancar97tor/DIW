@@ -1,0 +1,19 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border: 1px solid #999;
+    text-align: left;
+    padding: 10px;
+    
+}
+#hora{
+  
+  width: 10%;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  

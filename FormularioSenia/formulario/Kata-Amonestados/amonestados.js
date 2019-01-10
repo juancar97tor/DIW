@@ -9,8 +9,8 @@ function lider(){
     let elegido = document.getElementById("nombre").value;
     console.log(elegido);
 
-    if(elegido){
+    elegido.value.order="-1";
 
-    }
+    let contenedor = document.getElement
     
 }

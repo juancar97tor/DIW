@@ -116,14 +116,14 @@ exports.create = (req,res)=>{
 // Obtener todos los investigadores
 exports.findAll = (req,res) => {
 
-        Incidencias.find().then(incidencias=>{
+        Incidencia.find().then(incidencias=>{
             res.send(incidencias);
         }).catch(err=>{
             res.status(500).send({
                 message: err.message || " Algo fue mal mientras los capturabamos a todos"
             });
         });
-z
+
 };
 
 

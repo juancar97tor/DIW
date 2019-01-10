@@ -33,7 +33,7 @@ require('./app/routes/incidencia.routes.js')(app);
 
 // Vamos a definir un "punto de inicio"
 app.get('/',(req,res)=>{
-    res.json({"message":"Estas en el cerebro de la bestia, malandrin"});
+    res.sendFile(path.join(__dirname,'formulario/index.html'));
 });
 
 // Sirviendo ficheros desde el servidor
